@@ -1,7 +1,10 @@
+//boworing 
 fn main(){
-    let mut s1 :String = String::from("harik");
-    let mut s2 = s1;
-    s1 =s2.clone();
-    println!("{}",s1);
-    println!("{}",s2);
+    let s1 :String = String::from("hello");
+
+    do_something(s2:&s1);
+
+}
+fn do_something(s2:&String){
+   println!("{}",s2);
 }
